@@ -25,7 +25,6 @@ function App() {
     return (
         <div className="App">
             <nav className='Nav'>
-                {/* <a href={Resume} target="_blank" rel="noopener noreferrer" className='Nav-item'>Resume</a> */}
                 <a href="https://github.com/christianmcfar" target="_blank" rel="noopener noreferrer">
                     <FaGithub className='Nav-item' size={25} />
                 </a>
@@ -71,19 +70,6 @@ function App() {
                     style={{ fontSize: 'larger', display: 'inline-block' }}
                     repeat={Infinity}
                 />
-                <p className='Title-align'>
-                    {/* This is my personal portfolio website/map demo
-                    which contains my resume and some social media links, as well as some other personal projects as I build them. */}
-
-                    {/* The map inspiration for the map portion is my love for traveling, maps, geography, and just the world in general.
-
-                    It's a simple site created using React, Mapbox API for mapping/navigation controls, and Base UI for some visual components and styling. */}
-
-                    {/* My personal passions include advancing technology by creating software that offers an intuitive user interface. Designs optimized for efficient and
-                    aesthetic experience. Creative influences are rooted in quiet moments in nature and exploring the unknown through travel.
-                    Support environmental conservation and research efforts. Strong experience facilitating collaborative team projects to reach
-                    a common goal. Breaking down difficult concepts as an instructor - helping others succeed and become the best versions of themselves. */}
-                </p>
                 <p className="Title-line">
                     Check out my <a
                         className="App-link"
@@ -96,21 +82,6 @@ function App() {
                 </p>
                 
             </header>
-            {/* <body className="App-body">
-                <p className='Title-align'>
-                    This is my personal portfolio website/map demo
-                    which contains my resume and some social media links, as well as some other personal projects as I build them.
-
-                    The map inspiration for the map portion is my love for traveling, maps, geography, and just the world in general.
-
-                    It's a simple site created using React, Mapbox API for mapping/navigation controls, and Base UI for some visual components and styling.
-
-                    My personal passions include advancing technology by creating software that offers an intuitive user interface. Designs optimized for efficient and
-                    aesthetic experience. Creative influences are rooted in quiet moments in nature and exploring the unknown through travel.
-                    Support environmental conservation and research efforts. Strong experience facilitating collaborative team projects to reach
-                    a common goal. Breaking down difficult concepts as an instructor - helping others succeed and become the best versions of themselves.
-                </p>
-            </body> */}
         </div>
     );
 }
