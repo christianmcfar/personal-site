@@ -6,6 +6,7 @@ import particlesOptions from "./particles.json";
 import { FaGithub, FaLinkedinIn, FaMapMarkedAlt } from "react-icons/fa";
 import Resume from "./Christian McFarland - Resume.pdf";
 import { TypeAnimation } from 'react-type-animation';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
     const [init, setInit] = useState(false);
@@ -88,6 +89,23 @@ function App() {
                             </p>
                         </div>
                     </section>
+                    <section className="textSection">
+                        <div className="content">
+                            <h2>
+                                Ikigai (生き甲斐 - 'reason for being')
+                            </h2>
+                            <p>
+                                {/* Advancing technology by creating software that offers an intuitive user interface. Designs 
+                                optimized for efficient and aesthetic experience. Creative influences are rooted in quiet moments in nature and exploring 
+                                the unknown through travel. Strong experience facilitating collaborative team projects to reach a common goal. Breaking 
+                                down difficult concepts as an instructor - helping others succeed and become the best versions of themselves. */}
+                                My passion is crafting software that offers intuitive user interface. Driven to create designs 
+                                optimized for efficient and aesthetic experiences, saving time and money. Facilitating collaborative 
+                                team projects and quickly iterating to reach a common goal. Breaking down difficult 
+                                concepts to help others succeed and learning as much as possible along the way.
+                            </p>
+                        </div>
+                    </section>
                     <section>
                         <div className='App-header'>
                             <h2 className='Title-align'>
@@ -104,6 +122,7 @@ function App() {
                         </div>
                     </section>
                 </div>
+                <Analytics />
             </body>
         </div>
     );
